@@ -17,11 +17,11 @@ This Web app requires the latest version of [Python and Flask](http://flask.poco
 
 Clone the repository:
 
-`$ git clone https://github.com/superrcoop/info3180-lab3.git`
+`$ git clone https://github.com/superrcoop/flask_starter.git`
 
 Go into the repository:
 
-`$ cd info3180-lab3`
+`$ cd flask_starter`
 
 Create a virtual environment and Install app dependencies:
 
