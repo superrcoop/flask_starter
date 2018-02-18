@@ -1,13 +1,13 @@
-Basic flask_starter
----------------------
 
-Starter code for a new Flask Application
+Flask-Mail and Flask-WTF tutorial
+-------------------------------------
+
 > See Release version 1.0
 
 Description
 -------------------
 
-Basic
+info3180-lab3
 
 
 Getting Started !
@@ -31,6 +31,23 @@ Create a virtual environment and Install app dependencies:
 
 `$ pip install -r requirements.txt`
 
+To allow Flask-Mail to work you'll need to configure your SMTP in `__init__.py`:
+
+```python 
+app.config['SECRET_KEY'] = 'passphrase' 
+app.config['MAIL_SERVER'] = 'smtp.mailtrap.io' 
+app.config['MAIL_PORT'] = '465' 
+
+# Add your mailtrap username here
+app.config['MAIL_USERNAME'] = '' 
+
+# Add your mailtrap password here
+app.config['MAIL_PASSWORD'] = '' 
+```
+
 Run the app:
 
 `$ python app.py`
+
+
+
